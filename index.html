@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#07121f" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="description" content="Vural & Burcu — Manisa / Salihli düğün daveti" />
+  <title>Vural & Burcu — Düğün Daveti</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <div class="sun-glow"></div>
+    <div class="mountain mountain-a"></div>
+    <div class="mountain mountain-b"></div>
+    <div class="sardis-lines"></div>
+    <div class="grain"></div>
+  </div>
+
+  <main class="experience" id="experience">
+    <section class="opening" id="opening" aria-label="Daveti açma ekranı">
+      <div class="monogram-intro" aria-hidden="true">
+        <svg viewBox="0 0 220 120" role="img" aria-label="V ve B monogram">
+          <defs>
+            <linearGradient id="foilIntro" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#9f8351" />
+              <stop offset=".35" stop-color="#f1dfb3" />
+              <stop offset=".58" stop-color="#b89a60" />
+              <stop offset="1" stop-color="#ead8ae" />
+            </linearGradient>
+          </defs>
+          <path class="mono-v" d="M49 25 L90 96 L112 56" />
+          <path class="mono-b" d="M116 27 L116 96 M116 28 C166 16 178 52 141 60 C185 62 182 100 116 95" />
+          <path class="mono-thread" d="M32 97 C74 83 144 109 190 84" />
+        </svg>
+        <span class="intro-shine"></span>
+      </div>
+
+      <div class="envelope-stage" id="envelopeStage">
+        <div class="envelope" id="envelope" aria-hidden="true">
+          <div class="envelope-back"></div>
+          <div class="card-preview">
+            <div class="card-preview-border"></div>
+            <div class="card-preview-monogram">V&nbsp;&amp;&nbsp;B</div>
+          </div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="emboss-lines"></div>
+          <div class="seal" id="seal">
+            <div class="seal-rim"></div>
+            <div class="seal-mark">VB</div>
+            <span class="seal-crack seal-crack-a"></span>
+            <span class="seal-crack seal-crack-b"></span>
+          </div>
+          <div class="foil-edge"></div>
+          <div class="spark-field" id="sparkField"></div>
+        </div>
+      </div>
+
+      <button class="open-btn" id="openInvitation" type="button" aria-controls="invitation">
+        <span>DAVETİ AÇ</span>
+        <span class="button-hairline" aria-hidden="true"></span>
+      </button>
+      <p class="opening-caption">Vural &amp; Burcu · Salihli</p>
+    </section>
+
+    <section class="invitation-shell" id="invitation" aria-hidden="true">
+      <article class="invitation-card">
+        <div class="card-foil-border" aria-hidden="true"></div>
+        <div class="corner-ornament corner-top" aria-hidden="true"></div>
+        <div class="corner-ornament corner-bottom" aria-hidden="true"></div>
+
+        <header class="card-header">
+          <p class="eyebrow">DÜĞÜN DAVETİ</p>
+          <div class="name-lockup" aria-label="Vural ve Burcu">
+            <svg class="names-svg" viewBox="0 0 480 170" role="img" aria-label="Vural ve Burcu">
+              <text x="240" y="60" text-anchor="middle" class="ink-name ink-name-vural">Vural</text>
+              <text x="240" y="95" text-anchor="middle" class="ink-amp">ve</text>
+              <text x="240" y="145" text-anchor="middle" class="ink-name ink-name-burcu">Burcu</text>
+            </svg>
+          </div>
+        </header>
+
+        <div class="families" aria-label="Aileler">
+          <div class="family family-bride">
+            <span class="family-kicker">GELİN TARAFI</span>
+            <strong>Mürüvvet &amp; Ergül</strong>
+          </div>
+          <span class="family-divider" aria-hidden="true"></span>
+          <div class="family family-groom">
+            <span class="family-kicker">DAMAT TARAFI</span>
+            <strong>Herdem &amp; Nurettin</strong>
+          </div>
+        </div>
+
+        <p class="invitation-copy">Sizleri bu özel günümüzde aramızda görmekten mutluluk duyarız.</p>
+
+        <div class="event-meta">
+          <div class="meta-primary">
+            <span id="dateText">7 KASIM 2026 · CUMARTESİ</span>
+            <span class="meta-dot" aria-hidden="true"></span>
+            <span id="timeText">14:00 — 17:00</span>
+          </div>
+          <p>Manisa / Salihli</p>
+          <h2 id="venueText">Salihli Öğretmenevi</h2>
+          <p class="venue-address">Aksoy Mh. · Menderes Cd. No:70</p>
+        </div>
+
+        <div class="actions" aria-label="Davetiye işlemleri">
+          <button class="action-btn" id="locationBtn" type="button">
+            <span class="action-icon" aria-hidden="true">⌖</span>
+            <span>Konum</span>
+          </button>
+          <button class="action-btn" id="calendarBtn" type="button">
+            <span class="action-icon" aria-hidden="true">□</span>
+            <span>Takvime Ekle</span>
+          </button>
+          <button class="action-btn action-primary" id="rsvpBtn" type="button">
+            <span class="action-icon" aria-hidden="true">✓</span>
+            <span>Katılım Onayı</span>
+          </button>
+        </div>
+
+        <footer class="card-footer">
+          <span class="footer-line"></span>
+          <span>MANİSA · SALİHLİ</span>
+          <span class="footer-line"></span>
+        </footer>
+      </article>
+
+      <button class="sound-toggle" id="soundToggle" type="button" aria-label="Sesi aç veya kapat" hidden>
+        <span aria-hidden="true">♫</span>
+      </button>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="rsvpModal" role="dialog" aria-modal="true" aria-labelledby="rsvpTitle" hidden>
+    <div class="modal-panel">
+      <button class="modal-close" id="rsvpClose" type="button" aria-label="Kapat">×</button>
+      <p class="modal-kicker">VURAL &amp; BURCU</p>
+      <h3 id="rsvpTitle">Katılım Onayı</h3>
+      <p class="modal-copy">Yanıtınız şimdilik yalnızca bu cihazda saklanır. Daha sonra WhatsApp veya form sistemine bağlanabilir.</p>
+      <div class="rsvp-options">
+        <button type="button" data-rsvp="Katılıyorum">Katılıyorum</button>
+        <button type="button" data-rsvp="Katılamıyorum">Katılamıyorum</button>
+      </div>
+      <p class="rsvp-status" id="rsvpStatus" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="infoModal" role="dialog" aria-modal="true" aria-labelledby="infoTitle" hidden>
+    <div class="modal-panel modal-panel-small">
+      <button class="modal-close" id="infoClose" type="button" aria-label="Kapat">×</button>
+      <p class="modal-kicker">BİLGİ</p>
+      <h3 id="infoTitle">Detay bekleniyor</h3>
+      <p class="modal-copy" id="infoCopy"></p>
+    </div>
+  </div>
+
+  <audio id="music" preload="none" playsinline></audio>
+  <script src="app.js" defer></script>
+</body>
+</html>

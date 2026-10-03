@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vural Burcu Salihli Davetiye//TR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vural-burcu-salihli-20261107@github.io
+DTSTAMP:20261003T131300Z
+DTSTART;TZID=Europe/Istanbul:20261107T140000
+DTEND;TZID=Europe/Istanbul:20261107T170000
+SUMMARY:Vural & Burcu Düğün Daveti
+LOCATION:Salihli Öğretmenevi ve Akşam Sanat Okulu\, Aksoy Mh. Menderes Cd. No:70\, Salihli/Manisa
+DESCRIPTION:Vural & Burcu — Düğün Daveti\n7 Kasım 2026 Cumartesi\n14:00–17:00
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
